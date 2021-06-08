@@ -1,0 +1,14 @@
+.profile-pic {
+    max-width: 250px;
+    max-height: 250px;
+    image-resolution:inherit;
+   position: relative;
+}
+
+#about {
+    color: white;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
