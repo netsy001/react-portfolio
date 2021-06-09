@@ -1,9 +1,10 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap';
-import resumeData from '../../resumeData';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import resumeData from '../../../public/resumeData';
 
 
 const Portfolio = () => {
+
     return (
         <div className="portfolioPage">
 
@@ -14,8 +15,9 @@ const Portfolio = () => {
                         <span>{resumeData.portfolio && resumeData.portfolio.map((item) =>{
                             return (
                                 <div>
-                                    <p>{item.name}</p>
-                                    <img src={item.imgurl} alt=""/>
+                                    <p>{item.name1}</p>
+                                    <Image src={item.imgurl1}></Image>
+                                    <span>{item.imglink1}</span>   
                                 </div>
                             )
                         })}</span>

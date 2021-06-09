@@ -1,6 +1,4 @@
-
-
-let resumeData = {
+ {
     "name": "Surendra Choudary Nettam",
     "role": "Full Stack Developer",
     "linkedinId": "Your LinkedIn Id",
@@ -56,24 +54,24 @@ let resumeData = {
     ],
     "portfolio": [
       {
-        "name": "The workday Scheduler",
-        "imgurl": './src/components/images/day planner.png',
-        "imglink": "https://netsy001.github.io/Theworkdayscheduler/"
+        "name1": "The workday Scheduler",
+        "imgurl1": {day},
+        "imglink1": "https://netsy001.github.io/Theworkdayscheduler/"
       },
       {
-        "name": "Trailor-Sailor",
-        "imgurl": "./src/images/popcorn.jpg",
-        "imglink": "https://netsy001.github.io/Theworkdayscheduler/"
+        "name2": "Trailor-Sailor",
+        "imgurl2": "../images/popcorn.jpg",
+        "imglink2": "https://netsy001.github.io/Theworkdayscheduler/"
   
       },
       {
-        "name": "Weather-Dashboard",
-        "imgurl": "./src/images/popcorn.jpg",
-        "imglink": "https://netsy001.github.io/Weather-Dashboard/"
+        "name3": "Weather-Dashboard",
+        "imgurl3": "../images/weatherapp.jpg",
+        "imglink3": "https://netsy001.github.io/Weather-Dashboard/"
   
       }
     ]
    
   }
   
-  export default resumeData;
+ 

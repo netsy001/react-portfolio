@@ -1,14 +1,14 @@
 import React from 'react'
-import logo from '../../images/mylogo.png';
+
 import './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light "> 
-            <a className="navbar-brand" href="#"> <img className = "logo" src= {logo}  alt="Suri logo..."/> </a>
+        <nav className="navbar navbar-expand-lg "> 
+            {/* <a className="navbar-brand" href="#"> <img className = "logo" src= {logo}  alt="Suri logo..."/> </a> */}
            
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" >
                 <span className="navbar-toggler-icon"></span>
             </button>
 

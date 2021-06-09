@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Image, Row } from 'react-bootstrap';
 import resumeData from '../../resumeData';
-import Photo from '../../images/Photo.jpg';
+import Photo from '../images/Photo.jpg';
 import '../Home/Home.css';
 
 const Home = () => {
@@ -10,13 +10,14 @@ const Home = () => {
    return (
       <section id="about">
          <Row>
-            <Col sm={6}>
+         <Col sm={1}></Col>
+            <Col sm={5}>
                <Image className="profile-pic" src={Photo} roundedCircle alt="Profile Pic"></Image></Col>
 
             <Col sm={5}>
 
                <h2>About Me</h2>
-               <p>{resumeData.aboutme}</p>
+               <p classNmae="aboutme">{resumeData.aboutme}</p>
 
                      <h2>Contact Details</h2>
                      <p className="address">
@@ -31,6 +32,7 @@ const Home = () => {
                   
                
             </Col>
+            <Col sm={1}></Col>
          </Row>
       </section >
    )
