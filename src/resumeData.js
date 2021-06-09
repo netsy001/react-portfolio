@@ -57,18 +57,18 @@ let resumeData = {
     "portfolio": [
       {
         "name": "The workday Scheduler",
-        "imgurl": '../src/images/day planner.png',
+        "imgurl": './src/components/images/day planner.png',
         "imglink": "https://netsy001.github.io/Theworkdayscheduler/"
       },
       {
         "name": "Trailor-Sailor",
-        "imgurl": "../src/images/popcorn.jpg",
+        "imgurl": "./src/images/popcorn.jpg",
         "imglink": "https://netsy001.github.io/Theworkdayscheduler/"
   
       },
       {
         "name": "Weather-Dashboard",
-        "imgurl": "../src/images/popcorn.jpg",
+        "imgurl": "./src/images/popcorn.jpg",
         "imglink": "https://netsy001.github.io/Weather-Dashboard/"
   
       }
