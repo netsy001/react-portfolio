@@ -52,8 +52,7 @@ h1{
 
 .footer{
   background-color: rgb(64, 235, 115);
-  position:relative;
-  height:auto;
+  position:fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
