@@ -8,10 +8,10 @@ export default function Header() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarText">
-        <a className="navbar-brand" href="/react-portfolio">Surendra C Nettam</a>
+        <a className="navbar-brand" href="/">Surendra C Nettam</a>
           <ul className="navbar-nav ml-auto mt-2 mt-lg-0">
             <li className="nav-item active">
-              <a className="nav-link" href="/react-portfolio">Home <span className="sr-only">(current)</span></a>
+              <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/portfolio">Portfolio</a>
