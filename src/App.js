@@ -1,5 +1,4 @@
 
-import './App.css';
 import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -18,7 +17,7 @@ function App() {
           <Header />
           <hr />
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/react-portfolio" exact component={Home} />
             <Route path="/portfolio" exact component={Portfolio} />
             <Route path="/contact" exact component={Contact} />
           </Switch>
