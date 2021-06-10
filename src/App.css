@@ -39,7 +39,10 @@
     transform: rotate(360deg);
   }
 }
-
+nav{
+  padding: auto;
+  flex-wrap: wrap;
+}
 
 h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
