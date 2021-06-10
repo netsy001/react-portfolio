@@ -1,29 +1,29 @@
 
 import './App.css';
-// import Navbar from '../src/components/Navbar/Navbar';
+import Header from './components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from '../src/components/Header/Header';
 import './App.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { Container } from 'react-bootstrap';
 import Portfolio from '../src/components/Portfolio/Portfolio';
-import Contact from '../src/components/Contact/Contact';
 import Home from '../src/components/Home/Home';
+import Contact from '../src/components/Contact/Contact';
+import Footer from '../src/components/Footer/Footer';
 
 
 function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Container fluid>
-          {/* <Navbar /> */}
+      <div>
           <Header />
+          <hr />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/portfolio" exact component={Portfolio} />
             <Route path="/contact" exact component={Contact} />
           </Switch>
-        </Container>
+          <Footer/>
+          </div>
       </BrowserRouter>
     </div>
   );

@@ -1,27 +1,29 @@
-import React from 'react'
-import { Image } from 'react-bootstrap';
-import '../Header/Header.css';
-import logo from '../images/mylogo.png';
-import Navbar from '../Navbar/Navbar';
-import '../Navbar/Navbar.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const Header = () => {
+
+export default function Header() {
     return (
-        <section className="header">
-            <section className="header-top">
-                <section className="header-top__logo">
-                    <img className = "logo" src= {logo}  alt="Suri logo..."/>
-                </section>
-                <section className="header-top__navbar">
-                    <section className="header-top__navigation">
-                        <Navbar />
-                    </section>
-
-                </section>
-            </section>
-            </section>
-    )
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand" href="/portfolio-react">Surendra C Nettam</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav ml-auto mt-lg-0">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="/
+                        ">Home<span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link hover" to="/portfolio">Portfolio</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link className="nav-link hover" to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    );
 }
-
-export default Header
